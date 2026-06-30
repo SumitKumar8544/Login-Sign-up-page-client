@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://login-sign-up-server.onrender.com/api/auth';
 
 function Signup() {
   const [formData, setFormData] = useState({
